@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Rimhammer - Story Tellers</name>
+	<author>SickBoyWi</author>
+	<url/>
+	<description>This mod adds Warhammer themed story tellers from the Warhammer - The End Times lore period.
+	
+This mod is intended to accompany the Rimhammer - The End Times mod series, but none of those mods are required to use this one.
+	
+Story Tellers added:
+	
+	Sigmar
+	
+More to come in the future.
+
+Note: If you're using mods that add custom events, they may not occur with a custom story teller. I can patch them in, if you let me know.</description>
+	<packageId>sickboywi.rimhammer.storytellers</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<!--
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	-->
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.BioTech</li>
+	</loadAfter>
+</ModMetaData>
